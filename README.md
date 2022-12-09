@@ -44,7 +44,7 @@ Start the react frontend client
 - Ruby version
   3.0.0
 - Database  
-  Postresql
+  Postgresql
 - Frontend
   React
 
