@@ -82,5 +82,5 @@ test:
 production:
   <<: *default
   database: my_yoga_zone_production
-  username: my_yoga_zone
-  password: <%= ENV["MY_YOGA_ZONE_DATABASE_PASSWORD"] %>
+  username:
+  password:
