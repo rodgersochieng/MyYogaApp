@@ -7,7 +7,7 @@ ruby "3.0.0"
 gem "rails", "~> 7.0.4"
 
 # Use postgresql as the database for Active Record
-gem "pg", "~> 1.1"
+gem "pg"
 
 # Use Active Model has_secure_password
 gem 'bcrypt', '~> 3.1.7'
