@@ -9,12 +9,6 @@ Run
 
 ### `npm install --prefix client`
 
-Start your postgres server
-
-### `sudo service postgresql start`
-
-Enter your sudo password if pompted
-
 Then run
 
 ### `bundle install`
@@ -41,12 +35,10 @@ Start the react frontend client
 
 ### Project Technologies
 
-- Ruby version
-  3.0.0
-- Database  
-  Postgresql
+- Ruby on Rails
+- Database sqlite3
 - Frontend
-  React
+  React Js
 
   <h1>Support and Contact Details</h1>
   <h4>This app represents the first version. In this case, it is still work in progress. In case a user encounters issues or experiences a bug, kindly feel free to reach the developer through rodges.ochieng@student.moringaschool.com</h4>
