@@ -84,15 +84,30 @@
 #   database: my_yoga_zone_production
 #   username: rodgers
 #   password: <%= ENV["MY_YOGA_ZONE_DATABASE_PASSWORD"] %>
+# default: &default
+#   adapter: postgresql
+#   encoding: unicode
+# For details on connection pooling, see Rails configuration guide
+# http://guides.rubyonrails.org/configuring.html#database-pooling
+# pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+# username: rodger
+# password: password1
+
+# development:
+#   <<: *default
+#   database: my_yoga_zone_development
 default: &default
   adapter: postgresql
   encoding: unicode
-  # For details on connection pooling, see Rails configuration guide
-  # http://guides.rubyonrails.org/configuring.html#database-pooling
+  host: postgres
+  username: rodgers
+  password: marsai16
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
-  username: rodger
-  password: password1
 
 development:
   <<: *default
-  database: my_yoga_zone_development
+  database: my-yoga-zone-main_development
+
+production:
+  <<: *default
+  database: my-yoga-zone-main_production
