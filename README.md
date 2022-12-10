@@ -1,6 +1,6 @@
-# MY YOGA ZONE
+# MY Fitness ZONE
 
-My yoga Zone is a web application that provides remote yoga lessons to individuals at the comfort.The yoga lessons which are inform of videos are free of charge to all individuals . A trainee only need to have an acces to the app ,book a trainer will be granted all yoga tutorial videos under the trainer.
+My Fitness Zone is a web application that provides remote fitness lessons to individuals at the comfort.The fitness lessons which are inform of videos are free of charge to all individuals . A trainee only need to have an acces to the app ,book a trainer will be granted all fitness tutorial videos under the trainer.
 
 To get started with the project,you will be required to clone this repository.
 Clone it here
