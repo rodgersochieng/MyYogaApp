@@ -12,6 +12,7 @@ function Footer() {
       }}
     >
       {" "}
+      All rights reserved within(Moringa School){" "}
     </div>
   );
 }
